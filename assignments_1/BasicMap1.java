@@ -55,11 +55,7 @@ public class BasicMap1 {
 		System.out.println("Enter String Value to add in map - ");
 		String val = sc.nextLine();
 
-		domainNames.put(1, "Java");
-		domainNames.put(2, "Salesforce");
-		domainNames.put(3, "SQL");
-		domainNames.put(4, "AWS");
-
+		
 		domainNames.put(key,val);
 		System.out.println(" Value Inserted  Succesfully in Map.");
 
